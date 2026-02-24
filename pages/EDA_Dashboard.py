@@ -55,7 +55,7 @@ st.markdown("""
 
 # Load Data
 # Note: Ensure this path is correct for your local machine
-df = pd.read_csv(r'C:\Users\Admin\Documents\Microsoft project\Railway_Complaint_Project\train.csv', encoding='latin-1')
+df = pd.read_csv("train.csv", encoding="latin-1")
 
 # Load Model & Vectorizer
 model = pickle.load(open("logistic_model.pkl", "rb"))
