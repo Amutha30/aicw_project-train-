@@ -302,7 +302,7 @@ def load_models():
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv(r'C:\Users\Admin\Documents\Microsoft project\Railway_Complaint_Project\train.csv', encoding='latin-1')
+        df = pd.read_csv('train.csv', encoding='latin-1')
         return df
     except:
         return None
@@ -928,3 +928,4 @@ st.markdown("""
     <p style="font-size: 0.8rem;">Version 2.2.0 | Powered by Machine Learning</p>
 </div>
 """, unsafe_allow_html=True)
+
