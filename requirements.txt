@@ -1,7 +1,17 @@
-pandas
-numpy
-scikit-learn
-matplotlib
-seaborn
-jupyter
-nltk
+# Core
+streamlit==1.55.0
+pandas==2.3.3
+numpy==2.4.2
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.0.0
+
+# ML
+scikit-learn==1.8.0
+nltk==3.9.3
+joblib==1.5.3
+scipy==1.17.1
+
+# Utilities
+pillow==12.1.1
+packaging==26.0
